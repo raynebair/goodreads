@@ -79,7 +79,7 @@ function getOverdriveAvailability() {
 	}
 
 	// check for tags on either a single book review page or the bookshelf page
-	var book = $("h1#bookTitle.bookTitle");
+	var book = $("h1#bookTitle");
 	var booklist = $("a.bookTitle");
     	var bookshelves = $("#shelvesSection .sectionHeader").filter(function() {
 		return $(this).text().toLowerCase().indexOf("bookshelves") >= 0;
